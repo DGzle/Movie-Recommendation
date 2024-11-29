@@ -1,0 +1,17 @@
+{
+  "name": "movie-recommendation",
+  "version": "1.0.0",
+  "description": "CSE335-FINAL PROJECT",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ljharb/tsconfig": "^0.2.0",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.5"
+  }
+}
