@@ -2,10 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Movie Recommendator</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+<!-- header section-->
+   <header>
+       <h1>Movie Recommendator</h1>
+       <p>Meet with new movies that you'll love!</p>
+    </header>
+<!-- search section-->
+    <section id="movies">
+        <form>
+            <input type="text" id="search" placeholder="Search for a movie">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+<!-- movie section-->
+    <section id="movies">
+        <h2>Recommended Movies</h2>
+        <div class="movies-list">
+            <article class="movie-card">
+                <img src="https://via.placeholder.com/200x300" alt="Movie Poster">
+                <h3>Movie Title </h3>
+                <p>Movie Description </p>
+            </article>
+        </div>
+    </section>
+<!-- footer section-->
+    <footer>
+        <p>&copy; 2024 Movie Recommendator. All rights reserved</p>
+    </footer>
 </body>
 </html>
