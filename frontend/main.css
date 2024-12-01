@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+    background-color: #181818;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+a{
+    color: #1db954;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: #141414;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+header h1{
+    font-size: 2.5em;
+}
+
+header p{
+    font-size: 1.em;
+    color: #b3b3b3;
+}
+
+#search{
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #333;
+}
+
+#search form{
+    display: inline-flex;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+#search input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #333;
+    border-radius: 5px 0 0 5px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+#search button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #1db954;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+#search button:hover{
+    background-color: #148f39;
+}
+
+#movies {
+    padding: 20px;
+}
+
+#movies h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.movie-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.movie-card{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+}
+
+.movie-card img{
+    width: 100%;
+    display: block;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.movie-card h3{
+    font-size: 1.3em;
+    margin: 15px;
+}
+
+.movie-card p{
+    font-size: 0.9em;
+    margin: 0 15px 15px;
+    color: #b3b3b3;
+}
+
+footer{
+    background-color: #141414;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid #333;
+    color: #b3b3b3;
+}
